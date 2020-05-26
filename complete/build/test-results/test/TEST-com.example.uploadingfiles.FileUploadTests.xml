@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.uploadingfiles.FileUploadTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-19T22:28:13" hostname="MSI" time="0.311">
+  <properties/>
+  <testcase name="shouldSaveUploadedFile()" classname="com.example.uploadingfiles.FileUploadTests" time="0.022"/>
+  <testcase name="should404WhenMissingFile()" classname="com.example.uploadingfiles.FileUploadTests" time="0.007"/>
+  <testcase name="shouldListAllFiles()" classname="com.example.uploadingfiles.FileUploadTests" time="0.279"/>
+  <system-out><![CDATA[2020-04-19 17:28:13.294  INFO 15960 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.uploadingfiles.FileUploadTests], using SpringBootContextLoader
+2020-04-19 17:28:13.295  INFO 15960 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.uploadingfiles.FileUploadTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-19 17:28:13.296  INFO 15960 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.uploadingfiles.FileUploadTests]: FileUploadTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-19 17:28:13.303  INFO 15960 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.uploadingfiles.UploadingFilesApplication for test class com.example.uploadingfiles.FileUploadTests
+2020-04-19 17:28:13.305  INFO 15960 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-19 17:28:13.306  INFO 15960 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6abc84f3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e35aff1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3dd19d79, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55c7131c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b529e4b, org.springframework.test.context.event.EventPublishingTestExecutionListener@68abf8f7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59a08ace, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@34923d15, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7bfd4d0a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c266ec2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@110d7b72]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.0.RELEASE)
+
+2020-04-19 17:28:13.336  INFO 15960 --- [    Test worker] c.e.uploadingfiles.FileUploadTests       : Starting FileUploadTests on MSI with PID 15960 (started by lyl in C:\Users\lyl\gs-uploading-files\complete)
+2020-04-19 17:28:13.336  INFO 15960 --- [    Test worker] c.e.uploadingfiles.FileUploadTests       : No active profile set, falling back to default profiles: default
+2020-04-19 17:28:13.651  INFO 15960 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 17:28:13.817  INFO 15960 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-19 17:28:13.817  INFO 15960 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-04-19 17:28:13.818  INFO 15960 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-04-19 17:28:13.825  INFO 15960 --- [    Test worker] c.e.uploadingfiles.FileUploadTests       : Started FileUploadTests in 0.512 seconds (JVM running for 4.103)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

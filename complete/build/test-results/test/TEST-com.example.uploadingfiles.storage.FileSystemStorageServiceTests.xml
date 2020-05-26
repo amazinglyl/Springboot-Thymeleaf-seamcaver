@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.uploadingfiles.storage.FileSystemStorageServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-19T22:28:14" hostname="MSI" time="0.015">
+  <properties/>
+  <testcase name="savePermitted()" classname="com.example.uploadingfiles.storage.FileSystemStorageServiceTests" time="0.003"/>
+  <testcase name="loadNonExistent()" classname="com.example.uploadingfiles.storage.FileSystemStorageServiceTests" time="0.004"/>
+  <testcase name="saveNotPermitted()" classname="com.example.uploadingfiles.storage.FileSystemStorageServiceTests" time="0.003"/>
+  <testcase name="saveAndLoad()" classname="com.example.uploadingfiles.storage.FileSystemStorageServiceTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
